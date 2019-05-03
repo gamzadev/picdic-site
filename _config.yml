@@ -1,9 +1,9 @@
 # Site
-title: Halve
-description: Stylish, Two-Column Jekyll Theme
-url: https://taylantatli.github.io/Halve
+title: Gamza
+description: Gamza's page
+url: https://picdic.gamza.kr
 logo: halve.png                                       # Site logo
-locale: en_US
+locale: ko_KR
 
 # Left Block Images
 background:
@@ -12,7 +12,7 @@ background:
   default-post: images/unsplash-gallery-image-3.jpg   # this image will be shown when post's front matter doesn't specify any image
 
 # Jekyll
-permalink:          /:title/
+permalink:          /posts/:year/:month/:day/:title
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
@@ -26,15 +26,15 @@ sass:
   style:            compressed
 
 # Google Analytics
-#google-analytics: UA-XXXXX-Y
+google-analytics: UA-139548306-1
 
 # Social Links
 #email:             email
 #google.plus:        username
-twitter:            username
+# twitter:            username
 #facebook:           username
-github:             username
-stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+# github:             username
+# stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
 #instagram:          username
@@ -52,7 +52,7 @@ stackoverflow:     123456/username   from a "http://stackoverflow.com/users/1234
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           username
+# behance:           username
 
 # Gems
 gems:
